@@ -7,4 +7,3 @@ packages to count = packages to count + 2
 	PRINT "Number of Packages:" + current number of packages
 packages to count == 50
 	PRINT "Maximum Limit Reached"
-
