@@ -1,12 +1,13 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
-# Generate a random number between 1 and 10 #
-# Set Attempts = 0 #
-# Maximum Attempts < 3 #
-# Prompt the player to enter a guess #
-# If the player guess = random number #
-	# PRINT "Correct!" #
-# If the player guess = NOT random number #
-	# PRINT "Incorrect. Try Again." #
-# If the player exceeds the maximum attempts #
-	# PRINT "Game Over. The correct answer was" + random number # 
+# ------------------------------------------------- #
+correct number = Generate a random number between 1 and 10
+Set attempts = 0
+Maximum attempts < 3
+Prompt the player to enter a guess
+If player guess == correct number
+	PRINT "Correct!"
+If player guess == NOT correct number
+	PRINT "Incorrect. Try Again."
+If player guess + attempts = 3
+	PRINT "Game Over. The correct answer was" + correct number
