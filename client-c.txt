@@ -1,4 +1,10 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+packages to count = 2
+packages to count <= 50
+packages to count = packages to count + 2
+	PRINT "Number of Packages:" + current number of packages
+packages to count == 50
+	PRINT "Maximum Limit Reached"
 
