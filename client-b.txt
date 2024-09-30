@@ -1,4 +1,23 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-
+current position = (axis x, axis y) # Starting coordinates #
+Target position = (axis x, axis y) # Target coordinates inside the warehouse #
+Move North until = (axis x, axis y) # Stop at the coordinates #
+If current position == (axis x, axis y)
+	PRINT "You are now at:" + (axis x, axis y) = current position
+	PRINT "Move West until:" (axis x, axis y) # Stop at the coordinates #
+If current position == (axis x, axis y)
+	PRINT "You are now at:" + (axis x, axis y) = current position
+	PRINT "Move South until:" + (axis x, axis y) # Stop at the coordinates #
+If current position == (axis x, axis y)
+	PRINT "You are now at:" + (axis x, axis y) = current position
+	PRINT "Move West until:" + (axis x, axis y) # Stop at the coordinates #
+If current position == (axis x, axis y)
+	PRINT "You are now at:" + (axis x, axis y) = current position
+	PRINT "Move North until:" = (axis x, axis y) # Stop at the coordinates #
+If current position == (axis x, axis y)
+	PRINT "You are now at:" + (axis x, axis y) = current position
+	PRINT "Move East until:" = (axis x, axis y) # Stop at the coordinates #
+If current position == (axis x, axis y)
+	Print "You have arrived at the target location!"
